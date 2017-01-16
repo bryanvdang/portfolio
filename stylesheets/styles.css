@@ -1,0 +1,65 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: Helvetica,Arial, Sans-Serif;
+	font-size: 14px;
+	background-color: #F5F5F1;
+}
+
+#container{
+	width:700px;
+}
+
+#header, #footer{
+	background: #333;
+	color: #fff;
+	padding: 30px;
+	margin:10px;
+}
+
+#footer{
+	text-align: center;
+	font-size: 12px;
+	position:absolute;
+	width: 100%;
+	margin-left: 0;
+/*	bottom: 0;*/
+}
+
+.lead{
+	font-size: 18px;
+}
+
+.blog-post{
+	padding: 30px;
+	margin: 0 10px 10px;
+
+}
+h1, h2, h3 {
+	color:#ed7000;
+}
+.blog-post h2, .blog-post p{
+	margin-bottom: 10px;
+}
+.blog-post em{
+	color:#ccc;
+}
+a{
+/*	text-decoration: underline;*/
+	color: #FFD700;
+}
+.navbar-default .navbar-brand{
+	font-weight:400;
+	font-size: 30px;
+	font-family: georgia, serif;
+	color:#d5641c;
+}
+.navbar-default .navbar-nav > li > a {
+	font-weight: bold;
+	font-size: 18px;
+	font-family: Arial, Helvetica, Sans-Serif;
+	color:#0192B5;
+}
